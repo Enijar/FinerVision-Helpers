@@ -8,5 +8,8 @@ Simple JS and PHP library of helper functions / classes to make development that
 ```js
 var DropzoneWrapper = new DropzoneWrapper;
 
-DropzoneWrapper.dropzoneUpload('#test-uploader', '#test', {preload_images_link: 'get-uploaded-images.php', maxFiles: 3});
+DropzoneWrapper.dropzoneUpload('#test-uploader', '#test', {
+    preload_images_link: 'get-uploaded-images.php', 
+    maxFiles: 3
+});
 ```
